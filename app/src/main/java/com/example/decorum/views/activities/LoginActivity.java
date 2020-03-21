@@ -13,6 +13,8 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // TODO: 3/21/20 to add databing 
+        // TODO: 3/21/20 to add databing
+
+        // check this
     }
 }
