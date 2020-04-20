@@ -1,6 +1,4 @@
 
-Y
-)app/src/main/res/layout/activity_main.xml,7/6/76b07e40f24cce093536731477540f12e7da3cb6
 s
 Capp/src/main/java/com/example/decorum/viewmodel/LoginViewModel.java,7/4/74250edac78af5122b282e4cfe2e13177754b93d
 y
