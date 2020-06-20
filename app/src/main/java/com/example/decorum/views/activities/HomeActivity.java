@@ -17,6 +17,7 @@ import com.eightbitlab.bottomnavigationbar.BottomBarItem;
 import com.eightbitlab.bottomnavigationbar.BottomNavigationBar;
 import com.example.decorum.R;
 import com.example.decorum.utils.GridSpacingItemDecoration;
+import com.example.decorum.views.fragments.FavouritesFragment;
 import com.example.decorum.views.fragments.FragmentDesignCategories;
 
 import butterknife.BindView;
@@ -50,7 +51,7 @@ public class HomeActivity extends BaseActivity {
                     startHomeView();
                     break;
                 case 1:
-                    //Add Action
+                    changeFragment(new FavouritesFragment(),FavouritesFragment.class.getSimpleName());
                     break;
             }
         });
