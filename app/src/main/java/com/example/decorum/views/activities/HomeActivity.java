@@ -23,7 +23,7 @@ import com.example.decorum.views.fragments.FragmentDesignCategories;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class HomeActivity extends BaseActivity {
+public class HomeActivity extends AppCompatActivity {
     @BindView(R.id.bottom_bar)
     BottomNavigationBar bottomNavigationBar;
 
@@ -51,10 +51,14 @@ public class HomeActivity extends BaseActivity {
                     startHomeView();
                     break;
                 case 1:
-                    changeFragment(new FavouritesFragment(),FavouritesFragment.class.getSimpleName());
+                    startFavouritesFragment();
                     break;
             }
         });
+    }
+
+    private void startFavouritesFragment() {
+        changeFragment(new FavouritesFragment(),FavouritesFragment.class.getSimpleName());
     }
 
     private void startHomeView() {

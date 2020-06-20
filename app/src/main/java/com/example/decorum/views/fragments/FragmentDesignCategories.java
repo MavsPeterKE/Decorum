@@ -57,18 +57,31 @@ public class FragmentDesignCategories extends Fragment {
     }
 
     private void setCategoriesList() {
+        // TODO: 6/20/20 REmove this Dummy Data After Full Create Design Implementation 
         CategoryModel model = new CategoryModel();
         model.designName = "Home Deco";
+
         CategoryModel model2 = new CategoryModel();
         model2.designName = "Kitchen";
+
+
         CategoryModel mode3 = new CategoryModel();
         mode3.designName = "Study";
+
         CategoryModel model4 = new CategoryModel();
         model4.designName = "Waiting Lounge";
+
         CategoryModel mode6 = new CategoryModel();
-        mode3.designName = "Music Room";
+        mode6.designName = "Music Room";
+
         CategoryModel model7 = new CategoryModel();
-        model4.designName = "Bath rooom";
+        model7.designName = "Bath rooom";
+
+        CategoryModel mode8 = new CategoryModel();
+        mode8.designName = "Lab Design";
+
+        CategoryModel model9 = new CategoryModel();
+        model9.designName = "Compound Design";
 
         List<CategoryModel> modelList = new ArrayList<>();
         modelList.add(mode3);
@@ -77,7 +90,10 @@ public class FragmentDesignCategories extends Fragment {
         modelList.add(model4);
         modelList.add(mode6);
         modelList.add(model7);
+        modelList.add(mode8);
+        modelList.add(model9);
 
+        // Sets Design items on the list
         CategoryAdapter categoryAdapter = new CategoryAdapter(modelList, getActivity());
         GridLayoutManager gridLayoutManager = new GridLayoutManager(getActivity(), 2);
         GridSpacingItemDecoration gridSpacingItemDecoration = new GridSpacingItemDecoration(2, dpToPx(3), false);
