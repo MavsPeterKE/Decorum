@@ -27,4 +27,7 @@
     <string name="submit">Submit</string>
     <string name="reset_pass_title">Have you forgotten your password?</string>
     <string name="reset_instruction">Just enter the email you\'ve used to register and we will send you a reset link</string>
+    <string name="title_home">Home</string>
+    <string name="my_deco">Favourites</string>
+    <string name="create_design">Create Design</string>
 </resources>

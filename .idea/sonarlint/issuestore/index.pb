@@ -15,3 +15,9 @@ X
 app/build.gradle,f/4/f4a01d6a4fcb971362ec00a83903fd3902f52164
 Z
 *app/src/main/res/layout/activity_login.xml,1/f/1f7e901185d74bf05f9fcb38f9ed35ea78cd4c6e
+z
+Japp/src/main/java/com/example/decorum/views/activities/SignUpActivity.java,e/f/ef0433a56081721a6d090bc531817dab0f479679
+P
+ app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e
+‚
+Rapp/src/main/java/com/example/decorum/views/activities/ForgotPasswordActivity.java,a/1/a150d5a6d44510b47ff39d43616babe0120ae687

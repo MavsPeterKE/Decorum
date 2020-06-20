@@ -91,5 +91,8 @@ dependencies {
     //textview font
     implementation 'com.ctrlplusz.anytextview:library:1.2'
 
+    //Bottom Navigation
+    implementation 'com.eightbitlab:bottomnavigationbar:0.9.6'
+
 
 }
