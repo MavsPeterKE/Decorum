@@ -1,0 +1,10 @@
+
+ksquid:UselessImportCheck"BRemove this unused import 'androidx.fragment.app.FragmentManager'.(¯­ë‹ıÿÿÿÿ
+osquid:UselessImportCheck"FRemove this unused import 'androidx.fragment.app.FragmentTransaction'.(¦İÚ¿şÿÿÿÿ
+osquid:S1450!"YRemove the "mViewModel" field and declare it as a local variable in the relevant methods.(òÿÒr
+gsquid:CallToDeprecatedMethod6":Remove this use of "ViewModelProviders"; it is deprecated.(Ê‰ùÿÿÿÿ
+Wsquid:CallToDeprecatedMethod6"*Remove this use of "of"; it is deprecated.(Ê‰ùÿÿÿÿ
+Nsquid:S11357"2Complete the task associated to this TODO comment.(ûìÿÖøÿÿÿÿ
+Isquid:S1135<"2Complete the task associated to this TODO comment.(¸¯
+Dsquid:S1068!".Remove this unused "mViewModel" private field.(òÿÒr
+bsquid:CommentedOutCodeLine/"<This block of commented-out lines of code should be removed.(Î€ÚŠ

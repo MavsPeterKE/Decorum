@@ -1,0 +1,10 @@
+
+gsquid:S13011"KReplace this "switch" statement by "if" statements to increase readability.(¼œóÛüÿÿÿÿ
+tsquid:UselessImportCheck"KRemove this unused import 'androidx.recyclerview.widget.GridLayoutManager'.(î¼çÿüÿÿÿÿ
+Vsquid:UselessImportCheck"3Remove this unused import 'android.content.Intent'.(³ğ‹G
+vsquid:UselessImportCheck"MRemove this unused import 'androidx.recyclerview.widget.DefaultItemAnimator'.(Á‰ƒ ûÿÿÿÿ
+ysquid:UselessImportCheck"PRemove this unused import 'com.example.decorum.utils.GridSpacingItemDecoration'.(½ı¼ÿÿÿÿÿ
+fsquid:UselessImportCheck"BRemove this unused import 'com.ctrlplusz.anytextview.AnyTextView'.(ˆøÊ‚
+osquid:UselessImportCheck"FRemove this unused import 'androidx.recyclerview.widget.RecyclerView'.(Îèòçøÿÿÿÿ
+esquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(Æ¼¾Î
+U"squid:SwitchLastCaseIsDefaultCheck1""Add a default case to this switch.(¼œóÛüÿÿÿÿ

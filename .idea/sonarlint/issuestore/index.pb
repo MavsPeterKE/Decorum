@@ -21,3 +21,7 @@ P
  app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e
 ‚
 Rapp/src/main/java/com/example/decorum/views/activities/ForgotPasswordActivity.java,a/1/a150d5a6d44510b47ff39d43616babe0120ae687
+x
+Happ/src/main/java/com/example/decorum/views/activities/HomeActivity.java,c/7/c7e5cca1fcacab9f4ca9507d05b916f2ce661739
+ƒ
+Sapp/src/main/java/com/example/decorum/views/fragments/FragmentDesignCategories.java,d/5/d576226c216d9a39aa4578fb520f656a3d8a2c69
