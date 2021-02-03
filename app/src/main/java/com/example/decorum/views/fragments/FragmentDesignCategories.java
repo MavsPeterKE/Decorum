@@ -1,11 +1,13 @@
 package com.example.decorum.views.fragments;
 
+import android.content.Intent;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.util.TypedValue;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -17,6 +19,8 @@ import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.decorum.BrowseFurnitureActivity;
+import com.example.decorum.MainActivity;
 import com.example.decorum.R;
 import com.example.decorum.models.CategoryModel;
 import com.example.decorum.utils.GridSpacingItemDecoration;
@@ -32,7 +36,6 @@ public class FragmentDesignCategories extends Fragment {
 
     private FragmentDesignCategoriesViewModel mViewModel;
 
-    @BindView(R.id.categories_recycler)
     RecyclerView categoriesRecycler;
 
     public static FragmentDesignCategories newInstance() {
@@ -44,7 +47,11 @@ public class FragmentDesignCategories extends Fragment {
                              @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_design_categories_fragment, container, false);
         categoriesRecycler = view.findViewById(R.id.categories_recycler);
-        //ButterKnife.bind(getActivity());
+        Button btCreateDesign= view.findViewById(R.id.createDesign);
+        btCreateDesign.setOnClickListener(v -> {
+            Intent loadBrowseFurnitureActivity = new Intent(getActivity(), BrowseFurnitureActivity.class);
+            startActivity(loadBrowseFurnitureActivity);
+        });
         return view;
     }
 
